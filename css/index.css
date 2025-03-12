@@ -57,11 +57,11 @@ main {
 
 #tb {
     background-color: #FFE8ED;
-    color: #F74068;
+    color: #FF4D4D;
 }
 
 #bt {
-    background-color: #F74068;
+    background-color: #FF4D4D;
     color: white;
 }
 
@@ -139,7 +139,7 @@ main {
 }
 
 .price {
-    color: #F74068;
+    color: #FF4D4D;
 }
 
 .rating-header {
@@ -186,7 +186,7 @@ main {
     transform: scale(1.01);
 
     a {
-        color: #F74068;
+        color: #FF4D4D;
     }
 }
 
@@ -281,18 +281,18 @@ main {
     border-radius: 3px;
     height: 2.4em;
     width: 15em;
-    border: 1px solid #F74068;
+    border: 1px solid #FF4D4D;
     padding-inline: 5px;
 }
 
 .sub-form input::placeholder {
-    color: #F74068;
+    color: #FF4D4D;
     padding-left: 10px;
 }
 
 .sub-form button {
-    background-color: #F74068;
-    border: 1px solid #F74068;
+    background-color: #FF4D4D;
+    border: 1px solid #FF4D4D;
     color: white;
     height: 2.7em;
     width: 3em;
@@ -331,4 +331,74 @@ main {
 
 .sub-form label {
     display: none;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 50px 0.7fr 100px;
+    place-content: center center;
+    width: 70%;
+    margin: 25px 15%;
+    gap: 10px;
+}
+
+.footer-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-block-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.footer-block article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+    li {
+        list-style-type: none;
+        margin: 5px 0;
+    }
+    ul {
+        padding-left: 0;
+        margin-top: 0;
+    }
+    h3 {
+        margin-bottom: 10px;
+    }
+}
+
+.link-to-all {
+    color: #76A7FA;
+}
+
+.ttn img {
+    height: 150px;
+    margin-right: 30px;
+}
+
+#partner-program-btn {
+    background-color: white;
+    color: #76A7FA;
+    border: 1px solid #76A7FA;
+    margin-right: 20px;
+}
+
+.social img {
+    height: 40px;
+    padding: 5px;
+}
+
+.deep-bottom {
+    margin-top: 10px;
+    border-top: 1px inset #fff;
 }
